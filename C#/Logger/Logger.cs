@@ -7,13 +7,19 @@ namespace Logger
     public class Logger
     {
 
-        private static Logger logger = new Logger();
+        private static Logger instance = null;
 
         private Logger() { }
 
         public static Logger getInstance()
         {
-            return logger;
+
+            if(instance == null){
+                instance = new Logger();
+            }
+
+            return instance;
+
         }
 
         public void imprimir(string log)

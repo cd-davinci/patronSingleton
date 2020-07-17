@@ -6,4 +6,4 @@ Ejemplo del patrón Singleton
 Realizar una clase llamada Logger y usela en actividades básicas de un sistema por ejemplo sumar/restar dos números para loggear el resultado.
 
 ## Modelo Solución
-![Modelo](/modelo.png?raw=true)
+![Modelo](/UML/modelo.png?raw=true)
