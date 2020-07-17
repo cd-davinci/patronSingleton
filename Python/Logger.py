@@ -17,7 +17,7 @@ class Logger:
             Logger()
         return Logger.__instance
 
-    def imprimir(self, text):
+    def imprimir(self, text: str):
 
         """ Si en vez de imprimirlo por consola quisiera guardarlo
         por ejemeplo en un archivo, solo tendria que cambiar esta

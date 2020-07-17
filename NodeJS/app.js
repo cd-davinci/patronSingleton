@@ -1,5 +1,5 @@
 
-var Logger = require('./Logger');
+const {Logger} = require("./Logger");
 
 var logger = new Logger().getInstance();
 

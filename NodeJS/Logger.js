@@ -23,5 +23,5 @@ class Logger {
 
 }
 
-module.exports = Logger;
+exports.Logger = Logger;
 
